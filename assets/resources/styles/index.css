@@ -12,32 +12,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-image: url("https://www.futurebrand.com/uploads/case-studies/_sliderHd/PETZ03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#navbar {
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: aqua;
-}
-#nav-buttons {
-  display: flex;
-  gap: 10px;
-}
-#nav-buttons button {
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid black;
-  padding: 5px;
-  border-radius: 3px;
-  transition: 0.3s;
-}
-#nav-buttons button:hover {
-  transform: scale(1.1);
-  color: darkgray;
-  border: 1px solid darkgray;
-}
+
 #content-container {
   height: 100%;
   width: 100%;
@@ -45,9 +24,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("https://images.unsplash.com/photo-1576201836106-db1758fd1c97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 #main-card {
   max-width: 350px;
@@ -55,6 +31,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f0f8ff9d;
+
+  padding: 20px;
+  border-radius: 10px;
 }
 #card-title {
   font-size: 30px;
@@ -65,13 +45,11 @@
 }
 #main-card button {
   font-size: 18px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 15px;
   border: 1px solid black;
   border-radius: 5px;
 }
-#footer {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  background-color: aqua;
+#main-card button a {
+  text-decoration: none;
+  color: black;
 }
