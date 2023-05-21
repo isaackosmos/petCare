@@ -2,17 +2,15 @@ welcome();
 
 function welcome() {
   let pet = confirm(
-    "Seja bem vindo! Voce possui um pet? ('OK' para confirmar e 'Cancelar' para nao.)"
+    `Seja bem vindo! Voce possui um pet? ('OK' para confirmar e 'Cancelar' para nao.)`
   );
 
   if (pet) {
-    let petname = prompt("Qual o nome dele?");
+    let petname = prompt(`Qual o nome dele?`);
 
-    alert(
-      "Aqui voce encontra servicos perfeitos para cuidar do " + petname + "!"
-    );
+    alert(`Aqui voce encontra os melhores servicos para cuidar do ${petname}!`);
   } else {
-    alert("Ah, tudo bem! Sinta-se a vontade para conhecer o site.");
+    alert(`Ah, tudo bem! Sinta-se a vontade para conhecer o site.`);
   }
 }
 
