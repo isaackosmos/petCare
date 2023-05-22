@@ -26,7 +26,11 @@
   gap: 20px;
 
   width: 100%;
-  max-width: 700px;
 
   background-color: #e1eefa;
+}
+#planetID {
+  color: #5b7a88;
+  border-bottom: 1px solid #5b7a88;
+  cursor: pointer;
 }
