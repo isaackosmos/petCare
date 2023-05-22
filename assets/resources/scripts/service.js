@@ -1,15 +1,12 @@
-const card1 = document.querySelector(".service1");
-const card2 = document.querySelector(".service2");
-const url = "/app/adress.html";
+const btn = document.querySelector(".available-btn");
+let original = document.getElementById("available-text").innerText;
 
-function addresTab(url) {
-  const win = window.open(url, "_blank");
-  win.focus;
-}
+btn.addEventListener("click", () => {
+  document.getElementById("available-text").textContent = "Carregando.";
+  setTimeout(avlb, 2000);
+});
 
-card1.addEventListener("click", () => {
-  addresTab(url);
-});
-card2.addEventListener("click", () => {
-  addresTab(url);
-});
+let avlb = function () {
+  alert(`Servico disponivel para sua localizacao!`);
+  document.getElementById("available-text").textContent = original;
+};

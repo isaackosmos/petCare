@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 #first {
   display: flex;

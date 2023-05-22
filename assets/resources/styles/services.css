@@ -39,6 +39,11 @@
   width: 60%;
   max-width: 350px;
 }
-#saturday-combo {
+.span {
   font-size: 12px;
+}
+.available {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
 }
