@@ -7,5 +7,5 @@ planet.addEventListener("click", () => {
 });
 
 let time = function (id) {
-  return parseFloat(id * Math.random);
+  return parseFloat(id * 3);
 };
