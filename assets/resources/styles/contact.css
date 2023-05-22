@@ -15,30 +15,18 @@
   align-items: center;
   gap: 20px;
 }
-#contact-btn {
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: aliceblue;
+.logo {
+  height: 30px;
 }
-.card {
+#logos {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
-  gap: 10px;
+  gap: 20px;
 
   width: 100%;
   max-width: 700px;
 
   background-color: #e1eefa;
-}
-.card-img {
-  width: 60%;
-  max-width: 350px;
-}
-#saturday-combo {
-  font-size: 12px;
 }
