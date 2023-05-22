@@ -25,7 +25,7 @@ Funções
 - [x] Função com nome
 - [x] Função aninhada/local - declarar uma função dentro de outra
 - [x] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+- [x] Função Flecha - Arrow Function
 
 Eventos
 
@@ -42,7 +42,7 @@ Acesso aos elementos DOM do HTML
 - [x] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 Tratadores de Evento
 
@@ -56,7 +56,7 @@ Objetos Nativos
 - [ ] Usar pelo menos 3 métodos de manipulação de array
 - [ ] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template
+- [x] String Template
 
 Objetos
 

@@ -1,16 +1,18 @@
 welcome();
 
 function welcome() {
-  let pet = confirm(
-    `Seja bem vindo! Voce possui um pet? ('OK' para confirmar e 'Cancelar' para nao.)`
+  let terrestrial = confirm(
+    `Seja bem vindo! Você é terraqueo?('OK' para confirmar e 'Cancelar' para não.)`
   );
 
-  if (pet) {
-    let petname = prompt(`Qual o nome dele?`);
+  if (terrestrial) {
+    let name = prompt(`Qual o seu nome?`);
 
-    alert(`Aqui voce encontra os melhores servicos para cuidar do ${petname}!`);
+    alert(
+      `Aqui voce encontra os melhores servicos de viagem espacial, ${name}!`
+    );
   } else {
-    alert(`Ah, tudo bem! Sinta-se a vontade para conhecer o site.`);
+    alert(`संस्कृत!`);
   }
 }
 
@@ -18,12 +20,12 @@ window.onload = function () {
   window.setInterval(function () {
     let text = document.getElementById("description-span").innerText;
 
-    if (text == "Pet.") {
-      document.getElementById("description-span").textContent = "Cachorro.";
-    } else if (text == "Cachorro.") {
-      document.getElementById("description-span").textContent = "Gato.";
+    if (text == "Saturno.") {
+      document.getElementById("description-span").textContent = "Lua.";
+    } else if (text == "Lua.") {
+      document.getElementById("description-span").textContent = "Andrómeda.";
     } else {
-      document.getElementById("description-span").textContent = "Pet.";
+      document.getElementById("description-span").textContent = "Saturno.";
     }
   }, 2000);
 };

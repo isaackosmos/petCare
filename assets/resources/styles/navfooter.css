@@ -1,3 +1,10 @@
+#navbar a {
+  text-decoration: none;
+  color: black;
+
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
 #navbar {
   width: 100%;
   padding: 10px;
@@ -6,26 +13,12 @@
   justify-content: space-between;
   background-color: #f0f8ffb2;
 }
-#nav-buttons {
-  display: flex;
-  gap: 10px;
-}
-#nav-buttons button {
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid black;
-  padding: 5px;
-  border-radius: 3px;
-  transition: 0.3s;
-}
-#nav-buttons button:hover {
-  transform: scale(1.1);
-  color: darkgray;
-  border: 1px solid darkgray;
-}
 #footer {
   width: 100%;
   padding: 10px;
   text-align: center;
   background-color: #f0f8ffb2;
+}
+#navbar a:hover {
+  border-bottom: 1px solid black;
 }
