@@ -1,12 +1,13 @@
-const btn = document.querySelector(".available-btn");
-let original = document.getElementById("available-text").innerText;
+const btn = document.querySelector('.available-btn');
+const original = document.getElementById('available-text').innerText;
 
-btn.addEventListener("click", () => {
-  document.getElementById("available-text").textContent = "Carregando.";
+btn.addEventListener('click', () => {
+  document.getElementById('available-text').textContent = 'Carregando.';
 
-  let avlb = function () {
-    alert(`Servico disponivel para sua localizacao!`);
-    document.getElementById("available-text").textContent = original;
+  const avlb = () => {
+    // eslint-disable-next-line no-alert
+    window.alert('Servico disponivel para sua localizacao!');
+    document.getElementById('available-text').textContent = original;
   };
 
   setTimeout(avlb, 2000);

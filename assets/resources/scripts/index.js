@@ -1,31 +1,31 @@
-welcome();
-
+/* eslint-disable no-alert */
 function welcome() {
-  let terrestrial = confirm(
-    `Seja bem vindo! Você é terraqueo?('OK' para confirmar e 'Cancelar' para não.)`
+  const terrestrial = window.confirm(
+    'Seja bem vindo! Você é terraqueo?("OK" para sim e "Cancelar" para não.)'
   );
 
   if (terrestrial) {
-    let name = prompt(`Qual o seu nome?`);
+    const name = window.prompt('Qual o seu nome?');
+    const msg = `Aqui voce encontra os melhores servicos de viagem espacial, ${name}!`;
 
-    alert(
-      `Aqui voce encontra os melhores servicos de viagem espacial, ${name}!`
-    );
+    window.alert(msg);
   } else {
-    alert(`संस्कृत!`);
+    window.alert('संस्कृत!');
   }
 }
 
-window.onload = function () {
-  window.setInterval(function () {
-    let text = document.getElementById("description-span").innerText;
+welcome();
 
-    if (text == "Saturno.") {
-      document.getElementById("description-span").textContent = "Lua.";
-    } else if (text == "Lua.") {
-      document.getElementById("description-span").textContent = "Andrómeda.";
+window.onload = () => {
+  window.setInterval(() => {
+    const text = document.getElementById('description-span').innerText;
+
+    if (text === 'Saturno.') {
+      document.getElementById('description-span').textContent = 'Lua.';
+    } else if (text === 'Lua.') {
+      document.getElementById('description-span').textContent = 'Andrómeda.';
     } else {
-      document.getElementById("description-span").textContent = "Saturno.";
+      document.getElementById('description-span').textContent = 'Saturno.';
     }
   }, 2000);
 };

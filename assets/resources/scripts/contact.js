@@ -1,11 +1,21 @@
-const planet = document.getElementById("planetID");
+/* eslint-disable no-alert */
+const planet = document.getElementById('planetID');
 
-planet.addEventListener("click", () => {
-  let x = parseFloat(prompt("ID de seu planeta/estrela?"));
-  let y = time(x);
-  alert(`${y} minutos Luz para chegarmos a sua localizacao!`);
+const time = (id) => parseFloat(id * 3);
+
+planet.addEventListener('click', () => {
+  const id = parseFloat(window.prompt('ID de seu planeta/estrela?'));
+  const y = time(id);
+
+  const msg = `${y} minutos Luz para chegarmos a sua localizacao!`;
+  window.alert(msg);
 });
 
-let time = function (id) {
-  return parseFloat(id * 3);
-};
+// let number = [5, 5, 4, 7, 9, 9, 8, 3, 7, 8, 6, 7, 3];
+
+// window.onload = function () {
+//   for (i of number) {
+//     i++;
+//     document.getElementById('123').textContent = i;
+//   }
+// };
