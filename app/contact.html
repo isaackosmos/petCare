@@ -56,8 +56,8 @@
         <h3>Cadastre-se para ser um de nosso motoristas:</h3>
         <form onsubmit="" action="">
           <label for="name">Nome:</label>
-          <input id="name" type="text" placeholder="">
-          <label for="email" onsubmit="validarOEmail()" >Email:</label>
+          <input id="name" type="text">
+          <label for="email">Email:</label>
           <input id="email" type="email" required>
           <label for="planet">Qual planeta voce mora?</label>
           <input id="planet" type="text" required>
@@ -68,6 +68,8 @@
             <option value="3">Grande Nuvem de Magalhaes</option>
             <option value="4">Olho Negro</option>
           </select>
+          <label for="tel">Telefone:</label>
+          <input type="tel" id="tel" required>
           <button type="submit">Enviar</button>
         </form>
       </div>

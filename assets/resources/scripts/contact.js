@@ -40,50 +40,24 @@ form.onsubmit = () => {
   return true;
 };
 
-// const email = document.getElementById('email');
+const email = document.getElementById('email');
 
-// function validarOEmail() {
-//   if (email.checkValidity() === false) {
-//     email.setCustomValidity('Insira seu email terraqueo.');
-//   }
-//   email.setCustomValidity('');
-// }
+// eslint-disable-next-line no-unused-vars
+email.addEventListener('invalid', (event) => {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity('Insira um email Terraqueo.');
+  } else if (email.validity.valueMissing) {
+    email.setCustomValidity('Insira seu email por favor.');
+  } else {
+    email.setCustomValidity('');
+  }
+});
 
-// function validaEmail(input) {
-//   if (input.value === '') {
-//     input.setCustomValidity('Insira seu email terraqueo.');
-//   } else {
-//     input.setCustomValidity('');
-//   }
-// }
+const regexTelefone = /^\(?\d{2}\)?[-.\s]?\d{4,5}[-.\s]?\d{4}$/;
+const numeroTelefone = document.getElementById('tel').value; // Obtenha o valor do elemento
 
-// email.setCustomValidity('Insira um email terraqueo.');
-// function updateMessage(input) {
-//   if (input.value === '') { }
-//   input.setCustomValidity('');
-// }
-
-// function updateMessage(input) {
-//   if (input.validity.typeMismatch) {
-//     input.setCustomValidity('Insira um email terraqueo.');
-//   }
-//   input.setCustomValidity('');
-//   if (input.validity.valueMissing) {
-//     input.setCustomValidity('Insira seu email.');
-//   }
-//   input.setCustomValidity('');
-// }
-
-// email.addEventListener('invalid', (event) => {
-//   if (email.validity.typeMismatch) {
-//     email.setCustomValidity('Insira um email terraqueo.');
-//   }
-//   email.setCustomValidity('');
-//   if (email.validity.valueMissing) {
-//     email.setCustomValidity('Insira seu email.');
-//   }
-//   email.setCustomValidity('');
-// });
-
-// email.oninvalid = email.setCustomValidity('Insira um email terraqueo.');
-// email.onsubmit = email.setCustomValidity('');
+if (regexTelefone.test(numeroTelefone)) {
+  document.getElementById('tel').setCustomValidity('');
+} else {
+  document.getElementById('tel').setCustomValidity('Número de telefone inválido!');
+}
