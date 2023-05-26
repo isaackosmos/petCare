@@ -1,4 +1,8 @@
+/* eslint-disable strict */
 /* eslint-disable no-alert */
+
+'use strict';
+
 const planet = document.getElementById('planetID');
 
 const time = (id) => parseFloat(id * 3);

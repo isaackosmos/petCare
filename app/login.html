@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/resources/styles/login.css" />
+    <link rel="stylesheet" href="../assets/resources/styles/navfooter.css" />
+
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="site-container">
+      <!-- menu -->
+      <nav id="navbar"></nav>
+
+      <!-- formulario de login -->
+      <main id="content-container">
+        <form action="" id="login-form">
+          <h3 id="card-title">Login</h3>
+
+          <label for="login-input">Nome:</label>
+          <input id="login-input" type="text" class="validate" />
+          <label for="login-psw">Senha:</label>
+          <input id="login-psw" type="password" class="validate" />
+          <button id="submit-btn" type="submit">Enviar</button>
+        </form>
+      </main>
+
+      <!-- footer -->
+      <footer id="footer"></footer>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../assets/libraries/jquery/jquery.mask.js"></script>
+
+    <script src="../assets/resources/scripts/shared.js"></script>
+  </body>
+</html>

@@ -1,3 +1,7 @@
+/* eslint-disable strict */
+
+'use strict';
+
 const btn = document.querySelector('.available-btn');
 const original = document.getElementById('available-text').innerText;
 
