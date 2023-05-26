@@ -43,9 +43,6 @@
           alt=""
         />
       </div>
-      <div>
-        <p id="123">1</p>
-      </div>
 
       <div id="time">
         <h3>Nao mora no Planeta Terra?</h3>
@@ -56,8 +53,22 @@
       </div>
 
       <div id="formulario">
-        <form action="">
-          
+        <h3>Cadastre-se para ser um de nosso motoristas:</h3>
+        <form onsubmit="" action="">
+          <label for="name">Nome:</label>
+          <input id="name" type="text" placeholder="">
+          <label for="email" onsubmit="validarOEmail()" >Email:</label>
+          <input id="email" type="email" required>
+          <label for="planet">Qual planeta voce mora?</label>
+          <input id="planet" type="text" required>
+          <label for="galaxy">Em qual Galaxia voce tirou habilitacao?</label>
+          <select name="galaxy" id="galaxy">
+            <option value="1">Via-Lactea</option>
+            <option value="2">Andromeda</option>
+            <option value="3">Grande Nuvem de Magalhaes</option>
+            <option value="4">Olho Negro</option>
+          </select>
+          <button type="submit">Enviar</button>
         </form>
       </div>
 
@@ -71,4 +82,4 @@
     <script src="../assets/resources/scripts/contact.js"></script>
   </body>
 </html>
->
+

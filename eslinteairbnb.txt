@@ -1,0 +1,20 @@
+Regras Style Guide AirBnb:
+
+1-Usar sintaxe literal para criar Arrays. ("array = []")
+2-Usar sintaxe literal para criar objetos. ("obj = {}")
+3-Usar aspas simples para Strings.
+4-Strings longas em multiplas linhas com concatenacao.
+5-Nunca declarar a funcao em um espoco que nao seja de funcao.
+6-Sempre definir as varias no topo do escopo onde ela se encontra.
+7-Usar "===" ao inves de "==" para comparacao.
+8-Use chaves para todos os blocos com mais de uma linha de instrucao.
+9-Usar "tabs" com 2 espacos.
+10-Nao usar 1 caractere para nomenclaturas, camelcase, "_" em propriedades privadas e sempre nomeio funcoes.
+
+Correcoes EsLint no meu codigo:
+
+1-Nao invocar uma funcao antes dela ser declarada.
+2-Usar "const" quand o valor da variavel nao e alterado.
+3-Unexpected unnamed function.
+4-Usar LF inves de CRLF.
+5-Usar "===" inves de "==".
