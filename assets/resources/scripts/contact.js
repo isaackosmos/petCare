@@ -54,10 +54,10 @@ email.addEventListener('invalid', (event) => {
 });
 
 const regexTelefone = /^\(?\d{2}\)?[-.\s]?\d{4,5}[-.\s]?\d{4}$/;
-const numeroTelefone = document.getElementById('tel').value; // Obtenha o valor do elemento
+const numeroTelefone = document.getElementById('tel').value;
 
 if (regexTelefone.test(numeroTelefone)) {
   document.getElementById('tel').setCustomValidity('');
 } else {
-  document.getElementById('tel').setCustomValidity('Número de telefone inválido!');
+  document.getElementById('tel').setCustomValidity('Número de telefone inválido! :(');
 }

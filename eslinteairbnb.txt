@@ -5,7 +5,7 @@ Regras Style Guide AirBnb:
 3-Usar aspas simples para Strings.
 4-Strings longas em multiplas linhas com concatenacao.
 5-Nunca declarar a funcao em um espoco que nao seja de funcao.
-6-Sempre definir as varias no topo do escopo onde ela se encontra.
+6-Sempre definir as variaveis no topo do escopo onde ela se encontra.
 7-Usar "===" ao inves de "==" para comparacao.
 8-Use chaves para todos os blocos com mais de uma linha de instrucao.
 9-Usar "tabs" com 2 espacos.
