@@ -22,10 +22,10 @@ function validaSelect() {
   const select = document.getElementById('galaxy');
   const index = select.selectedIndex;
 
-  if ((index === null) || (index < 0)) {
+  if (index === null || index < 0) {
     return false;
   }
-  const msg = `CNH da galaxia de ${select.options[index].text} e valida!`;
+  const msg = `CNH da galaxia de ${select.options[index].text} é valida!`;
   alert(msg);
   return true;
 }
@@ -59,5 +59,7 @@ const numeroTelefone = document.getElementById('tel').value;
 if (regexTelefone.test(numeroTelefone)) {
   document.getElementById('tel').setCustomValidity('');
 } else {
-  document.getElementById('tel').setCustomValidity('Número de telefone inválido! :(');
+  document
+    .getElementById('tel')
+    .setCustomValidity('Número de telefone inválido! :(');
 }
