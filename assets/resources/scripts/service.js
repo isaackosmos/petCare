@@ -39,8 +39,7 @@ $('#mensagem').nextAll('button:first').css('padding', '5px 10px');
 $('#mensagem').nextAll('button:first').css('margin', '15px auto 0px auto');
 $('#destino').prev('label').css('font-weight', 'bold');
 
-$('#destino').children().addClass('opcao-destino');
-
 $('input').focus(() => {
   $('input').prev('label').css('font-weight', 'bold');
+  $('input').parent().addClass('boldinputs');
 });

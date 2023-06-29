@@ -63,23 +63,18 @@ $('#reserva-form').submit((event) => {
   const destino = $('#destino').val();
   const mensagem = $('#mensagem').val();
 
-  $.ajax({
-    url: '/api/reservas',
-    method: 'POST',
-    dataType: 'json',
-    data: {
-      nome: nome,
-      email: email,
-      destino: destino,
-      mensagem: mensagem
-    },
-    success(data) {
+  $.post('/api/reservas', {
+    nome: nome,
+    email: email,
+    destino: destino,
+    mensagem: mensagem
+  }, 'json')
+    .done((data) => {
       console.log(data);
       alert('Reserva enviada com sucesso!');
-    },
-    error(xhr, status, error) {
+    })
+    .fail((error) => {
       console.error(error);
       alert('Ocorreu um erro ao enviar a reserva. Por favor, tente novamente.');
-    }
-  });
+    });
 });
