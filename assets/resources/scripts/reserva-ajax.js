@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable no-alert */
 /* eslint-disable comma-dangle */
 /* eslint-disable object-shorthand */
 /* eslint-disable no-undef */
