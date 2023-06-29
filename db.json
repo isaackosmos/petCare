@@ -1,0 +1,7 @@
+{
+  "destinos": [
+    { "value": 1, "nome": "Lua" },
+    { "value": 2, "nome": "Marte" },
+    { "value": 3, "nome": "Júpiter" }
+  ]
+}

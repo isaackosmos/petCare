@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable strict */
 /* eslint-disable no-alert */
 
@@ -8,6 +9,10 @@ function welcome() {
 
   if (terrestrial) {
     const name = window.prompt('Qual o seu nome?');
+
+    document.cookie = `nomeUsuario=${name}`;
+    console.log(document.cookie);
+
     window.alert(`Aqui voce encontra os melhores servicos de viagem espacial, ${name}!`);
   } else {
     window.alert('संस्कृत!');

@@ -33,8 +33,8 @@ Eventos
 - [x] Evento de carregamento do documento - onload
 - [ ] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - usar onfocus e onblur
-- [ ] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
+- [x] Eventos de formulário - usar onfocus e onblur
+- [x] Imprimir alguma propriedade/atributo do objeto event recebido como parâmetro na função tratadora de evento
 - [ ] <s>Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai)</s>
 
 Acesso aos elementos DOM do HTML
@@ -48,8 +48,8 @@ Acesso aos elementos DOM do HTML
 Tratadores de Evento
 
 - [ ] Especificar o tratador de evento inline - registro do evento no HTML
-- [ ] Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
-- [ ] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
+- [x] Especificar o tratador de evento no modo tradicional - registro do evento no JS com prefixo on via atributo de um objeto DOM
+- [x] Especificar o tratador de evento com a função addEventListener - registro do evento no JS
 - [ ] Usar o operador this em funções tratadoras de eventos.
 
 Objetos Nativos
@@ -62,8 +62,8 @@ Objetos Nativos
 
 Objetos
 
-- [ ] Criar objeto usando função construtora ou notação literal
-- [ ] (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
+- [x] Criar objeto usando função construtora ou notação literal
+- [x] (Obrigatório) Criar objetos a partir da definição de classes do ES6 - a classe precisa ser definida em arquivo separado, sendo o nome do arquivo em letras minúsculas no estilo dashed-case e nome da classe em UpperCamelCase
 - [ ] Usar herança prototipal nativa ou herança de classes do ES6
 
 Qualidade do código
@@ -90,23 +90,23 @@ Formulário
 
 jQuery
 
-- [ ] Uso de seletores CSS - id, classe e tag
-- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-- [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
-- [ ] Efeitos fade ou slide
-- [ ] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
-- [ ] Manipulação do CSS via função css() e addClass()/removeClass()
+- [x] Uso de seletores CSS - id, classe e tag
+- [x] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
+- [x] Uso de seletores hierárquicos dinâmicos - parent/children/next
+- [x] Efeitos fade ou slide
+- [x] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
+- [x] Manipulação do CSS via função css() e addClass()/removeClass()
 - [ ] Manipulação do conteúdo de um input e div usando jQuery
 - [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
 Web Storage
 
-- [ ] Leitura e escrita de dados simples - dados primivos como string, number, boolean
-- [ ] Leitura e escrita de JSON - dado transformado a partir de um objeto
-- [ ] Criar e atribuir um dado em um Cookie - opcionalmente, ler e apresentar o valor na tela
+- [x] Leitura e escrita de dados simples - dados primivos como string, number, boolean
+- [x] Leitura e escrita de JSON - dado transformado a partir de um objeto
+- [x] Criar e atribuir um dado em um Cookie - opcionalmente, ler e apresentar o valor na tela
 
 Requisições assíncronas
 
 - [ ] Requisições AJAX para uma implementação funcional do backend em ExpressJS na plataforma Node
-- [ ] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server
+- [x] (Obrigatório) Requisições AJAX para uma API Fake - JSON Server
 - [ ] Requisições AJAX para uma API Rest pública qualquer (Busca CEP API ou IBGE API ou outra).
