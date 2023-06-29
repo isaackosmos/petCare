@@ -55,9 +55,9 @@ Tratadores de Evento
 Objetos Nativos
 
 - [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
+- [x] Usar laço de repetição (for..in ou for..of ou forEach)
 - [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template - a String com crase e ${}
+- [x] String Template - a String com crase e ${}
 - [ ] Manipulação do CSS de forma nativa via atributo style e classList
 
 Objetos
@@ -96,7 +96,7 @@ jQuery
 - [x] Efeitos fade ou slide
 - [x] Especificar o tratador de algum evento para um elemento DOM via jQuery - deve ser um evento diferente do ready
 - [x] Manipulação do CSS via função css() e addClass()/removeClass()
-- [ ] Manipulação do conteúdo de um input e div usando jQuery
+- [x] Manipulação do conteúdo de um input e div usando jQuery
 - [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
 
 Web Storage
